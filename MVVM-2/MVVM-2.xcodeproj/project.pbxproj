@@ -23,6 +23,7 @@
 		E749362D28565E8B00B8DEE7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E749362C28565E8B00B8DEE7 /* TableViewController.swift */; };
 		E74936302856672400B8DEE7 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E749362F2856672400B8DEE7 /* Profile.swift */; };
 		E749363328566B5A00B8DEE7 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E749363228566B5A00B8DEE7 /* TableViewCell.swift */; };
+		E7653B822858EAED0062053F /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7653B812858EAED0062053F /* Box.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		E749362C28565E8B00B8DEE7 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		E749362F2856672400B8DEE7 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		E749363228566B5A00B8DEE7 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E7653B812858EAED0062053F /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				E746F8A7285796D5006E9121 /* ViewModel.swift */,
-				E746F8B72857AC91006E9121 /* TableViewCellViewModel.swift */,
 				E746F8C12857BB87006E9121 /* DetailViewModel.swift */,
+				E746F8B72857AC91006E9121 /* TableViewCellViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -71,8 +73,8 @@
 			isa = PBXGroup;
 			children = (
 				E746F8AA285797CB006E9121 /* TableViewViewModelType.swift */,
-				E746F8B42857ABBC006E9121 /* TableViewCellViewModelType.swift */,
 				E746F8BE2857BB54006E9121 /* DetailViewModelType.swift */,
+				E746F8B42857ABBC006E9121 /* TableViewCellViewModelType.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -107,6 +109,7 @@
 				E749362128565D3C00B8DEE7 /* LaunchScreen.storyboard */,
 				E749362428565D3C00B8DEE7 /* Info.plist */,
 				E749361C28565D2700B8DEE7 /* MVVM_2.xcdatamodeld */,
+				E7653B812858EAED0062053F /* Box.swift */,
 			);
 			path = "MVVM-2";
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E746F8BC2857BA8D006E9121 /* DetailViewController.swift in Sources */,
+				E7653B822858EAED0062053F /* Box.swift in Sources */,
 				E746F8B82857AC91006E9121 /* TableViewCellViewModel.swift in Sources */,
 				E749361428565D2700B8DEE7 /* AppDelegate.swift in Sources */,
 				E746F8AB285797CB006E9121 /* TableViewViewModelType.swift in Sources */,
